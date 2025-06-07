@@ -1,0 +1,213 @@
+.signup-container {
+  max-width: 400px;
+  margin: 50px auto;
+  padding: 2rem;
+  border-radius: 12px;
+  background-color: #ffffff;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.signup-container h2 {
+  text-align: center;
+  margin-bottom: 1.5rem;
+  color: #333;
+}
+
+.form-group {
+  margin-bottom: 1rem;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 0.4rem;
+  color: #555;
+  font-weight: 500;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 0.5rem 0.75rem;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 1rem;
+  transition: border 0.3s;
+}
+
+.form-group input:focus {
+  border-color: #007bff;
+  outline: none;
+}
+
+button[type="submit"] {
+  width: 100%;
+  padding: 0.6rem;
+  font-size: 1rem;
+  background-color: #007bff;
+  border: none;
+  color: #fff;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  justify-content: center;
+}
+
+button[type="submit"]:hover {
+  background-color: #0056b3;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  margin: 0;
+  padding: 20px;
+  align-items: center;
+}
+.todo-list-container {
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+}
+
+h1{
+  font-size: 2rem;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+button{
+  padding: 10px 15px;
+  font-size: 1rem;
+  color: #fff;
+  background-color: #007bff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.add-btn{
+  margin-bottom: 20px;
+}
+
+.add-btn:hover{
+  background-color: #0056b3;
+}
+
+.delete-btn{
+  background-color: #dc3545;
+}
+.delete-btn:hover{
+  background-color: #c82333;
+}
+
+.moveup-btn,
+.movedown-btn {
+  background-color: #ffc107;
+  margin: 0 5px;
+}
+.moveup-btn:hover,
+.movedown-btn:hover {
+  background-color: #e0a800;
+}
+
+input[type="text"] {
+  width: 80%;
+  padding: 10px;
+  font-size: 1rem;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+}
+
+ul{
+  padding :0;
+}
+
+li{
+  list-style: none;
+  margin: 10px 0;
+  padding: 10px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+text{
+  flex: 1;
+}
+
+.StopWatch {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  border: 5px solid #007bff;
+  border-radius: 10px;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  width: 300px;
+  margin: 20px auto;
+  font-family: Arial, sans-serif;
+  color: #333;
+}
+
+.StopWatch h1 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.StopWatch button {
+  padding: 10px 20px;
+  font-size: 1rem;
+  color: #fff;
+  background-color: #007bff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+.StopWatch button:hover {
+  background-color: #0056b3;
+}
+.StopWatch .time {
+  font-size: 2rem;
+  margin: 20px 0;
+}
+.StopWatch .controls {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.StopWatch .controls button {
+  flex: 1;
+  margin: 0 5px;
+}
+.StopWatch .controls button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+.StopWatch .controls button:hover:not(:disabled) {
+  background-color: #0056b3;
+}
+.StopWatch .controls button:active:not(:disabled) {
+  background-color: #004494;
+}
+.StopWatch .controls button.reset {
+  background-color: #dc3545;
+}
+.StopWatch .controls button.reset:hover {
+  background-color: #c82333;
+}   
+
+.time-display {
+  font-size: 2rem;
+  margin: 20px 0;
+  color: #333;
+}
